@@ -7,11 +7,17 @@ import val from './valhalla.jpg';
 import nar from './naruto.png'
 import dog from './doge.jpg'
 import gpu from './gpu.jpg'
+import em from './em.jpeg'
+import ft from './fruit.jpg'
+import fk from './faker.jpg'
+
+
 
 function App() {
   return (
-    <div className="outerBox">
-      <div className="navBar">
+    <>
+    <div className="navBar" id="navBar">
+      <div className="navCon">
         <div className="navBrand">
           <span>ALEXANDER</span><span style={{ color: "rgb(70,80,130)", fontWeight: "600", fontFamily: "Arial" }}>C++</span>
         </div>
@@ -26,7 +32,9 @@ function App() {
             <img className="linkImg" src={gh} alt="none"></img>
           </a>
         </div>
+        </div>
       </div>
+    <div className="outerBox">
       <div className="innerBox">
         <div className="firstBox">
           <div className="head">
@@ -37,38 +45,38 @@ function App() {
           <div className="topBox">
             <div className="topHead">Most Popular Blogs</div>
             <div className="top">
-              <img className="topImg" src={val} alt="none"></img>
+              <img className="topImg" src={em} alt="none"></img>
               <div className="topFoot">
-                REVIEW
+                THOUGHTS
                 <div className="topText">
-                  Game Review++: Assassin's Creed Valhalla
+                Thoughts++: Emacs VS VI
                 </div>
               </div>
             </div>
             <div className="top">
-              <img className="topImg" src={val} alt="none"></img>
+              <img className="topImg" src={gpu} alt="none"></img>
               <div className="topFoot">
-                REVIEW
+                PRODUCT
                 <div className="topText">
-                  Game Review++: Assassin's Creed Valhalla
+                  Top 10 GPUs That You Can't Buy
                 </div>
               </div>
             </div>
             <div className="top">
-              <img className="topImg" src={val} alt="none"></img>
+              <img className="topImg" src={nar} alt="none"></img>
               <div className="topFoot">
                 REVIEW
                 <div className="topText">
-                  Game Review++: Assassin's Creed Valhalla
+                  Anime Review++: Naruto
                 </div>
               </div>
             </div>
             <div className="top">
-            <img className="topImg" src={val} alt="none"></img>
+            <img className="topImg" src={fk} alt="none"></img>
             <div className="topFoot">
-                REVIEW
+                GOSSIP
                 <div className="topText">
-                  Game Review++: Assassin's Creed Valhalla
+                Gossip++: Hottest New E-Sports Couple?
                 </div>
               </div>
             </div>
@@ -123,43 +131,45 @@ function App() {
             </div>
         </div>
         <div className="box">
-        <img className="boxImg" src={val} alt="none"></img>
+        <img className="boxImg" src={em} alt="none"></img>
             <div className="boxHead">
-              Game Review++: Assassin's Creed Valhalla
+              Thoughts++: Emacs VS VI
             </div>
             <div className="boxText">
-              An indepth review of the latest Assassin's Creed game with a ++ take
+              Hot++ take on which editor is best and asking the question "why do you hate yourself?"
             </div>
             <div className="boxFoot">
-              <span style={{textDecoration: "underline"}}>REVIEW</span> | Click to Read
+              <span style={{textDecoration: "underline"}}>THOUGHTS</span> | Click to Read
             </div>
         </div>
         <div className="box">
-        <img className="boxImg" src={val} alt="none"></img>
+        <img className="boxImg" src={ft} alt="none"></img>
             <div className="boxHead">
-              Game Review++: Assassin's Creed Valhalla
+              Top 10 Fruits That Are Tasty
             </div>
             <div className="boxText">
-              An indepth review of the latest Assassin's Creed game with a ++ take
+              Which fruit is tastiest and why is tomato a fruit? I answer the hard questions on this top 10 list
             </div>
             <div className="boxFoot">
-              <span style={{textDecoration: "underline"}}>REVIEW</span> | Click to Read
+              <span style={{textDecoration: "underline"}}>PRODUCT</span> | Click to Read
             </div>
         </div>
         <div className="box">
-        <img className="boxImg" src={val} alt="none"></img>
+        <img className="boxImg" src={fk} alt="none"></img>
             <div className="boxHead">
-              Game Review++: Assassin's Creed Valhalla
+              Gossip++: Hottest New E-Sports Couple?
             </div>
             <div className="boxText">
-              An indepth review of the latest Assassin's Creed game with a ++ take
+              In the world of e-sports the two titans Faker and Tyler1 dating? Get the hottest updates here
             </div>
             <div className="boxFoot">
-              <span style={{textDecoration: "underline"}}>REVIEW</span> | Click to Read
+              <span style={{textDecoration: "underline"}}>GOSSIP</span> | Click to Read
             </div>
         </div>
       </div>
+      
     </div>
+    </>
   );
 }
 

@@ -15,5 +15,18 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255)";
+          document.getElementById("navBar").style.boxShadow =  "1px 5px 5px rgba(170, 173, 189, 0.4)";
+        } else {
+          document.getElementById("navBar").style.backgroundColor = "rgb(238, 238, 238)";
+          document.getElementById("navBar").style.boxShadow =  "none";
+        }
+      }
+    </script>
   </body>
 </html>

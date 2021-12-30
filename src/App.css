@@ -8,6 +8,9 @@
   .head {
     margin-left: 30px;
   }
+  .navBrand {
+    margin-left: 30px !important;
+  }
 }
 
 @media only screen and (min-width: 640px) {
@@ -38,6 +41,10 @@
   .outerBox {
     width: 1280px;
   }
+  .navCon {
+    width: 1280px;
+    margin: auto;
+  }
 }
 
 body {
@@ -62,9 +69,17 @@ body {
 
 .outerBox {
   margin: auto;
+  margin-top: 120px;
 }
 
 .navBar {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
+
+.navCon {
   display: flex;
 }
 
@@ -73,8 +88,9 @@ body {
   font-weight: 400;
   color: rgb(100, 100, 100);
   letter-spacing: 2.5px;
-  margin: 20px 0;
+  margin: 25px 0;
   user-select: none;
+  transition: .5s ease-in-out;
 }
 
 .linkBox {
@@ -98,7 +114,7 @@ body {
 }
 
 .head {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 600;
   letter-spacing: 2px;
   user-select: none;
