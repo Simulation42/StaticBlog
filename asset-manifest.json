@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/staticblog/static/css/main.72f9e8b6.css",
+    "main.js": "/staticblog/static/js/main.34358d1e.js",
+    "static/js/787.98562728.chunk.js": "/staticblog/static/js/787.98562728.chunk.js",
+    "static/media/naruto.png": "/staticblog/static/media/naruto.4a8788cd5d1e3a389222.png",
+    "static/media/fruit.jpg": "/staticblog/static/media/fruit.4bf4c779cb9bd5865a66.jpg",
+    "static/media/faker.jpg": "/staticblog/static/media/faker.4b2c5ab2e05aa4db1175.jpg",
+    "static/media/doge.jpg": "/staticblog/static/media/doge.0ce78505fc408fc8db87.jpg",
+    "static/media/em.jpeg": "/staticblog/static/media/em.aca9d1b56a83dfc89ae5.jpeg",
+    "static/media/gpu.jpg": "/staticblog/static/media/gpu.2007778e9e1b90669c30.jpg",
+    "static/media/valhalla.jpg": "/staticblog/static/media/valhalla.7cc97eb0a9ec85fe136e.jpg",
+    "static/media/facebook.png": "/staticblog/static/media/facebook.13d473e1b94fe57e0af1.png",
+    "index.html": "/staticblog/index.html",
+    "main.72f9e8b6.css.map": "/staticblog/static/css/main.72f9e8b6.css.map",
+    "main.34358d1e.js.map": "/staticblog/static/js/main.34358d1e.js.map",
+    "787.98562728.chunk.js.map": "/staticblog/static/js/787.98562728.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72f9e8b6.css",
+    "static/js/main.34358d1e.js"
+  ]
+}
