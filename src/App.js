@@ -10,7 +10,7 @@ import gpu from './gpu.jpg'
 import em from './em.jpeg'
 import ft from './fruit.jpg'
 import fk from './faker.jpg'
-
+import sq from './square.png'
 
 
 function App() {
@@ -31,6 +31,24 @@ function App() {
           <a rel="noreferrer" title="Github" href="https://github.com/Simulation42" target="_blank">
             <img className="linkImg" src={gh} alt="none"></img>
           </a>
+        </div>
+        <div className="linkBurg">
+          <img className="burgImg" src={sq} alt="none">
+          </img>
+          <div className="burgItems">
+              <a className="burgItem" rel="noreferrer" title="Facebook" href="https://www.facebook.com/alex.cho.90/" target="_blank">
+                <img className="itemImg" src={fb} alt="none"></img>
+                Facebook
+              </a>
+              <a className="burgItem" rel="noreferrer" title="Linkedin" href="https://www.linkedin.com/in/alex-cho-301508134/" target="_blank">
+                <img className="itemImg" src={lk} alt="none"></img>
+                Linkedin
+              </a>
+              <a className="burgItem" rel="noreferrer" title="Github" href="https://github.com/Simulation42" target="_blank">
+                <img className="itemImg" src={gh} alt="none"></img>
+                Github
+              </a>
+          </div>
         </div>
         </div>
       </div>
@@ -167,7 +185,12 @@ function App() {
             </div>
         </div>
       </div>
-      
+    </div>
+    <div className="footer">
+      <div className="footerCon">
+      Alexander<span style={{ color: "rgb(70,80,130)", fontWeight: "600", fontFamily: "Arial" }}>C++   </span> 
+      <span style={{ fontSize: "14px" }}>|    ©2021</span>
+    </div>
     </div>
     </>
   );
